@@ -53,7 +53,7 @@ body{
 @media (min-width: 768px) {
     .nav-principal{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 .nav-principal a{
@@ -68,3 +68,95 @@ body{
     color: var(--negro);
 }
 
+.hero{
+    background-image: url(../Images/inicio.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:35rem;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .hero{
+        height: 45rem;
+        background-size:cover
+    }
+}
+
+.contenido-hero{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, .7);
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.contenido-hero h2{
+    color: var(--blanco);
+    font-size: 3rem;
+    padding-top: 2.8rem;
+}
+@media (min-width: 768px) {
+    .contenido-hero h2{
+        font-size:5rem
+    }
+}
+.ubicacion{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5rem;
+}
+.location{
+    color: var(--blanco);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.bandera{
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../Images/colombia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: solid black 1px;
+    border-radius: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+    
+    .ubicacion{
+        margin-top: 5rem;
+    }
+    .location{
+        color: var(--blanco);
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .boton{
+        padding: 1rem 3rem;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+}
+
+.boton:hover{
+    background-color: var(--primario);
+    color: var(--negro);
+}
