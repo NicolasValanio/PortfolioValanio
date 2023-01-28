@@ -16,6 +16,7 @@
 }
 html{
     font-size: 62.5%;
+    scroll-snap-type: y mandatory;
 }
 body{
     font-size: 16px;
@@ -190,6 +191,12 @@ text-align: center;
 .boton:hover{
     background-color: var(--primario);
     color: var(--negro);
+}
+@media (min-width: 1140px) {
+    .servicios,.nav-principal,.contacto,.footer{
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
 }
 @media (min-width: 768px) {
     .servicios{
