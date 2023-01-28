@@ -45,7 +45,8 @@ main h2{
     margin: 2rem 0;
 }
 .titlemain{
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
 }
 .sombra{
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.54);
@@ -213,7 +214,8 @@ text-align: center;
 }
 .servicio h3{
     color: var(--secundario);
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 .servicio p{
     line-height: 2;
