@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap');
+:root{
+    /* Colores */
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris:#757575;
+    --grisclaro: #DFE9F3;
+    
+    /* Fuentes */
+    --FuenteTitulo:'Lobster',cursive;
+    --FuenteMain:'Krub', sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+    scroll-snap-type: y mandatory;
+}
+body{
+    font-size: 16px;
+    font-family: var(--FuenteMain);
+    background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco)100%);
+
+}
+/* 1 REM === 10 PX */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+/* .hero{
+    display: block;
+} */
+nav,.nav-background{
+    visibility: collapse;
+}
+header{
+    visibility: collapse;
+}
