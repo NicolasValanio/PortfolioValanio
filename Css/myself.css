@@ -22,7 +22,7 @@ body{
     font-size: 16px;
     font-family: var(--FuenteMain);
     background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco)100%);
-
+/* background-color: #757575; */
 }
 /* 1 REM === 10 PX */
 
@@ -111,7 +111,7 @@ border-radius: 1rem;
 }
 @media (min-width: 768px) {
     .hero{
-        height: 45rem;
+        height: 60rem;
         background-size:cover;
         margin-bottom:2rem;
     }
@@ -168,7 +168,7 @@ text-align: center;
         font-family: var(--FuenteTitulo);
         color: var(--blanco);
         font-size: 5rem;
-        padding-top: 5rem;
+        padding-top: 10rem;
         font-size: 8rem;      
         
     }
@@ -189,7 +189,7 @@ text-align: center;
     .linea{
         width: 70%;
         margin: auto;
-        margin-top: 23rem;
+        margin-top: 30rem;
     }
     .sobremi{
         display: grid;
@@ -230,13 +230,27 @@ text-align: center;
     }
     .img-perfil2{
         width: 100%;
-        height: 40rem;
+        height: 50rem;
         background-image: url(../images/Wavy_Trv-02_Single-09.jpg);
         background-size: cover;
         background-position: bottom;
     }
     .imgsperfil{
         padding-top: 6rem;
+        gap: 5rem;
+    }
+    .certificaciones{
+        background-color: var(--secundario);
+        height: 35rem;
+        border-radius: 15px;
+    }
+    .certificaciones-container{
+        width: 100%;
+        display: grid;
+        row-gap: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
     }
     
 }
@@ -354,7 +368,67 @@ color: var(--blanco);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: auto;}
+    margin: auto;
+}
+.platzi-img{
+    width: 20rem;
+    height: 10rem;
+    background-image: url(https://static.platzi.com/static/images/footer/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.udemy-img{
+    width: 20rem;
+    height: 10rem;
+    background-image: url(https://cdn.freebiesupply.com/logos/thumbs/2x/udemy-2-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.pamplona-img{
+    width: 20rem;
+    height: 10rem;
+    background-image: url(https://www.unipamplona.edu.co/unipamplona/portalIG/home_10/recursos/2014/20112014/logo_upa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.mintic-img{
+    width: 20rem;
+    height: 10rem;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/MinTIC_%28Colombia%29_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.uts-img{
+    width: 20rem;
+    height: 10rem;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/41/Unidades_Tecnol%C3%B3gicas_de_Santander_%28UTS%29_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.coex-img{
+    width: 25rem;
+    height: 10rem;
+    background-image: url(../Images/logo\ -\ coex.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
 .nameskill{
     text-align: center;
     padding-top: 1.5rem;
@@ -370,4 +444,15 @@ color: var(--blanco);
 }
 .titleSkills{
     color: var(--blanco);
+    padding-top: 2rem;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer p{
+    font-family: var(--FuenteTitulo);
+    font-weight: 700;
+    font-size: 2rem;
 }
