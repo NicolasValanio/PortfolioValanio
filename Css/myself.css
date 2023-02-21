@@ -169,7 +169,9 @@ text-align: center;
         color: var(--blanco);
         font-size: 5rem;
         padding-top: 5rem;
-        font-size: 8rem;        }
+        font-size: 8rem;      
+        
+    }
     .textos p{
             color: var(--blanco);
         }
@@ -194,20 +196,178 @@ text-align: center;
         grid-template-columns: 1fr 1fr;
         margin: auto;
     }
-    .mytitle{
+    .mytitle,.titlePerfil,.titleSkills{
         font-size: 4rem;
         font-weight: 700;
     }
-    .mytext{
+    .mytext,.perfil-P{
         text-align: justify;
         font-size: 2rem;
-        font-weight: 700;
+        line-height: 28px;
     }
+    .perfil{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+    }
+    .SkillsContainer{
+        width: 100%;
+        margin: 0 auto; 
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        row-gap: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .img-perfil1{
+        width: 100%;
+        height: 30rem;
+        background-image: url(../images/frontend_text_2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .img-perfil2{
+        width: 100%;
+        height: 40rem;
+        background-image: url(../images/Wavy_Trv-02_Single-09.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    .imgsperfil{
+        padding-top: 6rem;
+    }
+    
 }
 .encabezado h1{
 margin: 0;
 color: var(--blanco);
 }
 .textos p{
+    color: var(--blanco);
+}
+
+.html-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnA86aYCk/1/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.css-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnA996b1c/1/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.js-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnAwcGFgU/1/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.boot-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnBvH34Eo/3/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.ts-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnA5ypSrY/1/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.git-imgs{
+    display: flex;
+    gap: 5px;
+}
+.git-img{
+    width: 6.5rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnBvvZQ_k/3/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.github{
+    width: 6.5rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/mdRJQ/MAFQoymdRJQ/1/t.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: auto;
+}
+.php-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnBmCepr0/3/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: auto;
+}
+.mysql-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnBklMHqI/3/thumbnail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.react-img{
+    width: 7rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnAyN3WV0/1/thumbnail.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.node-img{
+    width: 6rem;
+    height: 6.5rem;
+    background-image: url(https://media-public.canva.com/MADnA22KqQY/1/thumbnail_large.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;}
+.nameskill{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-family: var(--FuenteMain);
+    font-weight: 700;
+    color: var(--blanco);
+    font-size: 2rem;
+}
+.Skills{
+    background-color: var(--negro);
+    width: 100%;
+    border-radius: 15px;
+}
+.titleSkills{
     color: var(--blanco);
 }

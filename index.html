@@ -91,34 +91,34 @@
         <section class="contacto">
             <h2 class="titlemain">Contacto</h2>
     
-            <form class="formulario" action="">
+            <form id="form" class="formulario" action="">
                 <fieldset>
                     <legend>Cont&aacute;ctame llenando los siguientes campos</legend>
                     <div class="contenedor-campos">
 
                         <div class="campo">
                           <label for="">Nombre</label>
-                          <input class="input-text" type="text" placeholder="Tu nombre">
+                          <input class="input-text" type="text" name="nombre" placeholder="Tu nombre">
                         </div>
     
                         <div class="campo">
-                           <label for="">Apellidos</label>
-                           <input class="input-text" type="text" placeholder="Tus apellidos">
+                           <label for="">Apellidos</label> 
+                           <input class="input-text" type="text" name="apellidos" placeholder="Tus apellidos">
                         </div>
     
                        <div class="campo">
                            <label for="">Tel&eacute;fono</label>
-                           <input class="input-text" type="number" maxlength="20" minlength="10">
+                           <input class="input-text" type="number" name="telefono" maxlength="20" minlength="10">
                         </div>
                     
                        <div class="campo">
                           <label for="">Correo</label>
-                          <input class="input-text" type="email" >
+                          <input class="input-text" name="email"  type="email" >
                        </div>
                     
                       <div class="campo">
                           <label for="">Mensaje</label>
-                          <textarea class="textarea" ></textarea>
+                          <textarea class="textarea" name="mensaje" ></textarea>
                        </div>
     
                       <div class="enviarr">
@@ -127,6 +127,7 @@
                     </div>
                 </fieldset>
             </form>
+            <a href="mailto:serviciosvalenzuela1@gmail.com" id="envio">.</a>
         </section>
     </main> 
 
