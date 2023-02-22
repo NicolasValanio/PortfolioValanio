@@ -105,7 +105,7 @@ border-radius: 1rem;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size:cover;
-    height:30rem;
+    height:50rem;
     position: relative;
     margin-bottom: 1.5rem;
 }
@@ -147,6 +147,79 @@ text-align: center;
     display: flex;
     margin: 2rem 0;
 }
+
+.title{
+    font-family: var(--FuenteTitulo);
+    color: var(--blanco);
+    padding-top: 10rem;
+    font-size: 4rem;      
+    
+}
+
+.nombre{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.linea{
+    width: 100%;
+    margin: auto;
+    margin-top: 23rem;
+}
+
+.skills{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+
+.sobremi{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    margin: auto;
+}
+.foto{
+    width: 15rem;
+    height: 15rem;
+    background-image: url(../Images/fotocv.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.parla,.perfil-P{
+    text-align: justify;
+}
+
+.img-perfil1{
+    width: 100%;
+    height: 20rem;
+    background-image: url(../images/frontend_text_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.SkillsContainer{
+    width: 100%;
+    margin: 0 auto; 
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.html,.css,.javascript,.typescript,.git,.bootstrap,.php,.mySql,.react,.node{
+    margin-bottom: 2rem;
+}
+.certificaciones{
+    background-color: var(--secundario);
+    border-radius: 15px;
+    padding-bottom: 3rem;
+}
+.certificaciones div{
+    margin-bottom: 3rem;
+}
 @media (min-width: 768px) {
    
     .foto{
@@ -161,13 +234,10 @@ text-align: center;
     }
     .textos{
         width:100%;
-        /* margin: 0 10rem 15rem 0; */
-        text-align: c;
     }
     .title{
         font-family: var(--FuenteTitulo);
         color: var(--blanco);
-        font-size: 5rem;
         padding-top: 10rem;
         font-size: 8rem;      
         
@@ -435,7 +505,7 @@ color: var(--blanco);
     font-family: var(--FuenteMain);
     font-weight: 700;
     color: var(--blanco);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .Skills{
     background-color: var(--negro);
@@ -452,7 +522,7 @@ color: var(--blanco);
     margin-top: 2rem;
 }
 .footer p{
-    font-family: var(--FuenteTitulo);
+    font-family: var(--FuenteMain);
     font-weight: 700;
     font-size: 2rem;
 }
